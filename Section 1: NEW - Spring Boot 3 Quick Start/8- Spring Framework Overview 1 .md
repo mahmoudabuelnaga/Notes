@@ -5,7 +5,7 @@
 3. Aims to minimize Java boilerplate code, leveraging Spring's helper classes to streamline development.
 
 ## Core Containers:
-![alt text](<Screenshot from 2024-02-04 19-39-30.png>)
+![alt text](<Images/Screenshot from 2024-02-04 19-39-30.png>)
 The Spring Core Container is a fundamental part of the Spring Framework, providing the primary functionality for managing Spring beans. Beans are objects that form the backbone of your application and are managed by the Spring IoC (Inversion of Control) container. The Core Container is responsible for instantiating, configuring, and assembling these beans through dependency injection.
 
 The Spring Core Container itself is made up of several modules, including:
@@ -39,7 +39,7 @@ These components work together to form the Spring Core Container, offering a com
 3. Aims to minimize Java boilerplate code, leveraging Spring's helper classes to streamline development.
 
 ## Core Containers:
-![alt text](<Screenshot from 2024-02-04 19-39-30.png>)
+![alt text](<Images/Screenshot from 2024-02-04 19-39-30.png>)
 The Spring Core Container is a fundamental part of the Spring Framework, providing the primary functionality for managing Spring beans. Beans are objects that form the backbone of your application and are managed by the Spring IoC (Inversion of Control) container. The Core Container is responsible for instantiating, configuring, and assembling these beans through dependency injection.
 
 The Spring Core Container itself is made up of several modules, including:
