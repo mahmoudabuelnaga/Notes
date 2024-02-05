@@ -1,35 +1,35 @@
 # Spring Boot Overview
-### Spring in a nutshell:
+## Spring in a nutshell:
 Spring is a popular Java application framework with many helper classes and annotations.
 
 ---
-### The problem:
+## The problem:
 Spring application setup is challenging due to dependency, configuration, and server installation questions.
 
 ---
-### Spring Boot solution:
+## Spring Boot solution:
 Spring Boot simplifies Spring setup, automates configuration, resolves dependencies, and includes an embedded HTTP server for quick starts.
 
 ---
-### what's the relationship between Spring Boot and Spring?
+## what's the relationship between Spring Boot and Spring?
 Spring Boot simplifies using Spring.
 
 ---
-### Spring initializer:
+## Spring initializer:
 Spring Boot's Spring Initializer: Quickly generate Maven/Gradle Spring projects with selected dependencies via [https://start.spring.io/](https://start.spring.io/), for easy IDE import (Eclipse, IntelliJ, NetBeans, etc.).
 
 ---
-###  Spring Boot embedded Server:
+##  Spring Boot embedded Server:
 ![alt text](<Images/Screenshot from 2024-02-04 14-14-41.png>)
 Spring Boot embeds HTTP servers like Tomcat, Jetty, or Undertow directly in your application JAR, enabling a self-contained, standalone application without needing a separate server installation. 
 
 ---
-### Running Spring Boot Apps:
+## Running Spring Boot Apps:
 ![alt text](<Images/Screenshot from 2024-02-04 14-22-26.png>)
 Spring Boot app deployment: standalone with embedded server; runnable via IDE, command line, or with `java -jar mycoolapp.jar`.
 
 ---
-### Deploying Spring Boot Apps:
+## Deploying Spring Boot Apps:
 ![alt text](<Images/Screenshot from 2024-02-04 15-01-53.png>)
 1. Spring Boot applications can be deployed traditionally by packaging them as WAR files.
 2. These WAR files can then be deployed to external servers such as Tomcat, JBoss, or WebSphere.
@@ -39,7 +39,7 @@ Spring Boot app deployment: standalone with embedded server; runnable via IDE, c
 
 ---
 
-### Spring Boot FAQ
+## Spring Boot FAQ
 
 **#1 Does Spring Boot replace Spring MVC, Spring REST, et cetera?**
 ![alt text](<Images/Screenshot from 2024-02-04 15-11-52.png>)
