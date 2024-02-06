@@ -1,6 +1,6 @@
 # Maven Project Structure
 ## Standard Directory Structure
-![alt text](<Screenshot from 2024-02-05 17-29-00.png>)
+![alt text](<Images/Screenshot from 2024-02-05 17-29-00.png>)
 1. **Standardized Directory Structure**: Maven provides a standard directory structure for projects, addressing the issue of inconsistent directory structures across different development teams, making it easier for newcomers to adapt and ensuring standardization.
 
 2. **`pom.xml` Configuration File**: At the root of the project directory, the `pom.xml` file serves as Maven's configuration file, acting as a "shopping list" for the project, detailing dependencies and build configurations.
