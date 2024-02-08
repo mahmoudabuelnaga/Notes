@@ -29,5 +29,3 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
     ```
-3. Add new REST endpoint to our App.
-4. Verify the app is automatically reloaded.
