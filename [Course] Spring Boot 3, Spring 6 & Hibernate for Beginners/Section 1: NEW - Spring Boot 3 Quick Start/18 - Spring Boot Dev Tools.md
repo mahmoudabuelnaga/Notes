@@ -29,3 +29,8 @@
         <artifactId>spring-boot-devtools</artifactId>
     </dependency>
     ```
+
+3. Add this line on
+   `spring.devtools.restart.poll-interval=2s
+    spring.devtools.restart.quiet-period=1s
+    `
