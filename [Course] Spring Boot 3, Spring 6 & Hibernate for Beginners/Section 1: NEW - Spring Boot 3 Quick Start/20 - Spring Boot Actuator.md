@@ -86,3 +86,24 @@
     - go to the application.properties file, and add this line:
         - `management.endpoints.web.exposure.include=*`
 
+## What about Actuator Security?
+- You may NOT want to expose all of this information.
+- Add Spring Security to project and endpoints are secured.
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-security</artifactId>
+</dependency>
+```
+![alt text](<Images/Screenshot from 2024-02-19 15-15-07.png>)
+
+## Spring Security Configuration:
+You can override default use name and generated password in application.properties file:
+- > spring.security.user.name=naga
+- > spring.security.user.password=my_password
+
+## Excludeing Enfpoints:
+To Exclude /health and /info:
+> management.endpoints.web.exposure.exclude=health, info
+
+[Spring Boot Actuator Documentation](https://docs.spring.io/spring-boot/docs/current/actuator-api/htmlsingle/)
